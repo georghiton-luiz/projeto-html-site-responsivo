@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/image/bars-solid.svg">    
 </head>
 <body>
 
@@ -29,7 +30,11 @@
                 </div>
 
                 <nav class="menu">
-                    <ul>
+
+                    <button type="button" class="open-menu"><i class="fas fa-bars"></i></button>
+                    <div class="backdrop"></div>
+                    <ul>   
+                        <li class="close-menu"><button type="button"><i class="fas fa-times"></i></button></li>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -68,5 +73,7 @@
     </footer>    
 
     <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/37d41967ca.js" crossorigin="anonymous">
+    </script>
 </body>
 </html>
